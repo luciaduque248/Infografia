@@ -8,8 +8,12 @@
     font-family: 'Poppins', sans-serif;
     list-style: none;
     overflow-x: hidden;
-    -webkit-overflow-scrolling: auto;
 }
+
+html,
+body {
+    overflow: hidden;
+} 
 
 .queEs{
     background-color: red;

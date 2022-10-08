@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/HEADER/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/slide.css">
+    <link rel="shortcut icon" href="./img/icon-logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/4bc23db062.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="./js/menu.js"></script>
+
+    <title>La Infografía</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="h1">
+            <a href="#" class="a">
+                <img src="./img/logo.png" alt="">
+            </a>
+        </h1>
+
+        <button class="button">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a class="a" href="">Inicio</a></li>
+                <li class="li"><a class="a" href="">Qué es?</a></li>
+                <li class="li"><a class="a" href="">Uso</a></li>
+                <li class="li"><a class="a" href="">Características</a></li>
+                <li class="li"><a class="a" href="">Estructura</a></li>
+                <li class="li"><a class="a" href="">Cómo se hace?</a></li>
+                <li class="li"><a class="a" href="">Cuándo se hace?</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="queEs">
+            <div class="content">
+                <h1>¿Qué es una infografía?</h1>
+
+                <p>La infografía es un recurso visual que reúne de forma sintetizada un conjunto de datos a través de
+                    gráficos e
+                    imágenes. Se fundamenta en la expresión de “más vale una imagen que mil palabras”. Esto se debe a
+                    que la
+                    visualización gráfica de la información nos ayuda a la asociación de los datos con estos recursos y,
+                    por
+                    consiguiente, mejora la retención y el recuerdo de los datos.</p>
+            </div>
+
+            <div class="image">
+                <img src="./img/infografia.png" alt="">
+            </div>
+        </div>
+        <!-- https://static-cse.canva.com/blob/656051/infographics.94ddb758.jpg -->
+
+
+        <div class="ejemplos titulo">
+            <h1>Ejemplos de Infografias</h1>
+            <!-- Start Slider -->
+            <section class="cards-slider" id="slider">
+
+                <!-- Start Slider Checked -->
+                <input type="radio" name="slider" id="slide-1-radio" checked />
+                <input type="radio" name="slider" id="slide-2-radio" />
+                <input type="radio" name="slider" id="slide-3-radio" />
+                <!-- End Slider Checked -->
+
+                <!-- Start Slides -->
+                <div class="slides">
+                    <div class="slide">
+                        <img src="https://i.pinimg.com/originals/df/17/8a/df178a92bffed0961a50c660f5af39b8.jpg"
+                            alt="slide-1" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://www.cristofoli.com/bioseguridad/wp-content/uploads/2020/04/ICE-Infogr%C3%A1fico-Coronavirus-Espanho-Rev.1-2020.jpg"
+                            alt="slide-1" />
+                    </div>
+                    <div class="slide">
+                        <img src="https://pbs.twimg.com/media/D4zKC-KWAAAY9lF.jpg" alt="slide-1" />
+                    </div>
+                </div>
+                <!-- End Slides -->
+
+                <!-- Start Slider Control -->
+
+                <!-- Start Prevese Arrow -->
+                <div class="prev-arrow arrow">
+                    <label for="slide-1-radio" id="prev-1-arrow">
+                        <i class="fa fa-arrow-left"></i>
+                        <span class="thumb">
+                            <img src="https://i.pinimg.com/originals/df/17/8a/df178a92bffed0961a50c660f5af39b8.jpg"
+                                alt="slide-1-thumb" />
+                        </span>
+                    </label>
+                    <label for="slide-2-radio" id="prev-2-arrow">
+                        <i class="fa fa-arrow-left"></i>
+                        <span class="thumb">
+                            <img src="https://www.cristofoli.com/bioseguridad/wp-content/uploads/2020/04/ICE-Infogr%C3%A1fico-Coronavirus-Espanho-Rev.1-2020.jpg"
+                                alt="slide-2-thumb" />
+                        </span>
+                    </label>
+                    <label for="slide-3-radio" id="prev-3-arrow">
+                        <i class="fa fa-arrow-left"></i>
+                        <span class="thumb">
+                            <img src="https://pbs.twimg.com/media/D4zKC-KWAAAY9lF.jpg"
+                                alt="slide-3-thumb" />
+                        </span>
+                    </label>
+                </div>
+                <!-- Start Prevese Arrow -->
+
+                <!-- Start next Arrow -->
+                <div class="next-arrow arrow">
+                    <label for="slide-1-radio" id="next-1-arrow">
+                        <i class="fa fa-arrow-right"></i>
+                        <span class="thumb">
+                            <img src="https://i.pinimg.com/originals/df/17/8a/df178a92bffed0961a50c660f5af39b8.jpg"
+                                alt="slide-1-thumb" />
+                        </span>
+                    </label>
+                    <label for="slide-2-radio" id="next-2-arrow">
+                        <i class="fa fa-arrow-right"></i>
+                        <span class="thumb">
+                            <img src="https://www.cristofoli.com/bioseguridad/wp-content/uploads/2020/04/ICE-Infogr%C3%A1fico-Coronavirus-Espanho-Rev.1-2020.jpg"
+                                alt="slide-2-thumb" />
+                        </span>
+                    </label>
+                    <label for="slide-3-radio" id="next-3-arrow">
+                        <i class="fa fa-arrow-right"></i>
+                        <span class="thumb">
+                            <img src="https://pbs.twimg.com/media/D4zKC-KWAAAY9lF.jpg"
+                                alt="slide-3-thumb" />
+                        </span>
+                    </label>
+                </div>
+                <!-- Start next Arrow -->
+
+                <!-- End Slider Control -->
+            </section>
+            <!-- End Slider -->
+        </div>
+
+
+
+        <div class="uso">
+            <div class="content">
+                <h1>hola</h1>
+
+                <p>hola2</p>
+            </div>
+
+            <div class="image">
+                <img src="./img/infografia.png" alt="">
+            </div>
+        </div>
+
+        <!-- <div class="caracteristicas">
+            <div class="content">
+                <h1></h1>
+                
+                <p></p>
+            </div>
+            
+            <div class="image">
+                <img src="./img/infografia.png" alt="">
+            </div>
+        </div>
+
+        <div class="estructura">
+            <div class="content">
+                <h1></h1>
+                
+                <p></p>
+            </div>
+            
+            <div class="image">
+                <img src="./img/infografia.png" alt="">
+            </div>
+        </div>
+
+        <div class="comoSeHace">
+            <div class="content">
+                <h1></h1>
+                
+                <p></p>
+            </div>
+            
+            <div class="image">
+                <img src="./img/infografia.png" alt="">
+            </div>
+        </div>
+
+        <div class="cuandoSeHace">
+            <div class="content">
+                <h1></h1>
+                
+                <p></p>
+            </div>
+            
+            <div class="image">
+                <img src="./img/infografia.png" alt="">
+            </div>
+        </div> -->
+
+
+    </main>
+
+</body>
+
+</html>

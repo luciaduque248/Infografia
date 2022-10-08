@@ -10,12 +10,6 @@
     overflow-x: hidden;
 }
 
-html,
-body {
-    overflow: hidden;
-    touch-action: none;
--ms-touch-action: none;
-} 
 
 .queEs{
     background-color: red;

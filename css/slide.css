@@ -213,11 +213,13 @@ img {
     #slider {
         /* background-color: blue; */
         height: 90vh;
+        overflow-x: hidden;
     }
 
     #slider .slides {
         /* background-color: red; */
         width:100vw;
+        overflow-x: hidden;
     }
     #slider .slides .slide {
         width: 80vw;

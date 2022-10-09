@@ -1,0 +1,41 @@
+footer{
+    background-color: #003B74;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2rem 3rem;
+}
+
+.center{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+.integrantes{
+    text-align: left;
+}
+
+
+.logo-u img{
+    width: 50%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .center{
+        width: 60vw;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .center{
+        width: 240px;
+    }
+}

@@ -211,6 +211,10 @@ html {
     text-align: center;
 }
 
+.estructura-content img{
+    width: 60vw;
+}
+
 .comoSeHace-content{
     display: flex;
     flex-direction: column;
@@ -254,6 +258,7 @@ html {
 }
 
 .cuandoSeHace-content{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -262,10 +267,11 @@ html {
 }
 
 .titulo-when{
+    width: 24vw;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
     background-color: #8388AE;
     margin: 0.5rem;
     border-radius: 5px;
@@ -274,11 +280,11 @@ html {
 }
 
 .description-when{
-    width: 30vw;
+    width: 24vw;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
     background-color: #6C9CA0;
     margin: 1rem;
     border-radius: 5px;
@@ -291,12 +297,12 @@ html {
 }
 
 .cuandoSeHace-content ul{
-    width: 57vw;
+    width: 40vw;
+    height: 85vh;
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
     background-color: #AFD7CE;
     margin: 1rem;
     border-radius: 5px;
@@ -347,6 +353,111 @@ html {
         width: 70vw;
         height: 105vh;
         justify-content: space-around;
+    }
+
+    .uso-content{
+        padding: 3rem 1rem;
+    }
+
+    .uso-content h1{
+        text-align: center;
+    }
+
+    .uso-content p{
+        text-align: justify;
+    }
+
+    .clave{
+        height: 110vh;
+    }
+
+    .info{
+        height: 80vh;
+    }
+
+    .caracteristicas-content{
+        padding: 3rem 1rem;
+    }
+
+    .caracteristicas-content h1{
+        font-size: 30px;
+    }
+
+    .caracteristicas-content p{
+        padding: 0 2rem;
+    }
+
+    .fondo-unDraw{
+        padding: 4rem 2rem;
+    }
+
+    .fondo-unDraw ul{
+        margin-bottom: 3rem;
+        width: auto;
+    }
+
+    .fondo-unDraw img{
+        width: 70vw;
+    }
+
+    .estructura-content{
+        padding: 3rem 0rem;
+    }
+
+    .estructura-content h1{
+        padding: 0 1rem;
+        font-size: 40px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .estructura-content img{
+        width: 90vw;
+    }
+
+    .comoSeHace-content{
+        padding: 3rem 2rem;
+    }
+
+    .comoSeHace-content h1{
+        font-size: 40px;
+    }
+
+    .image-how {
+        width: 90vw;
+    }
+
+    .image-how img{
+        width: auto;
+    }
+
+    .how-to-do-it{
+        padding: 0 2rem;
+        text-align: justify;
+        width: auto;
+    }
+
+    .cuandoSeHace-content{
+        padding: 3rem 1rem;
+    }
+
+    .titulo-when{
+        width: 90vw;
+        height: 30vh;
+    }
+    .description-when{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .description-when p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .cuandoSeHace-content ul{
+        width: 90vw;
+        height: 180vh;
+        text-align: justify;
     }
 }
 

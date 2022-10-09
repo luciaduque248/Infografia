@@ -351,7 +351,7 @@ html {
 
     .clave{
         width: 70vw;
-        height: 105vh;
+        height: 110vh;
         justify-content: space-around;
     }
 
@@ -365,10 +365,6 @@ html {
 
     .uso-content p{
         text-align: justify;
-    }
-
-    .clave{
-        height: 110vh;
     }
 
     .info{
@@ -461,6 +457,222 @@ html {
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {}
+@media (min-width: 481px) and (max-width: 767px) {
+    .queEs {
+        height: auto;
+        padding: 2rem 0rem;
+    }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+    .content {
+        width: auto;
+        padding: 0 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .content h1 {
+        overflow: hidden;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .image{
+        width: 100vw;
+    }
+
+    .image img{
+        width: 95vw;
+    }
+
+    .ejemplos {
+        padding: 4rem 1rem;
+    }
+
+    .line-cards {
+        padding: 0 2rem;
+    }
+
+    .line-cards img {
+        margin: 1rem 0;
+        width: 85vw;
+    }
+
+    .clave{
+        width: 70vw;
+        height: 110vh;
+        justify-content: space-around;
+    }
+
+    .uso-content{
+        padding: 3rem 1rem;
+    }
+
+    .uso-content h1{
+        text-align: center;
+    }
+
+    .uso-content p{
+        text-align: justify;
+    }
+
+    .info{
+        height: 80vh;
+    }
+
+    .caracteristicas-content{
+        padding: 3rem 1rem;
+    }
+
+    .caracteristicas-content h1{
+        font-size: 30px;
+    }
+
+    .caracteristicas-content p{
+        padding: 0 2rem;
+    }
+
+    .fondo-unDraw{
+        padding: 4rem 2rem;
+    }
+
+    .fondo-unDraw ul{
+        margin-bottom: 3rem;
+        width: auto;
+    }
+
+    .fondo-unDraw img{
+        width: 70vw;
+    }
+
+    .estructura-content{
+        padding: 3rem 0rem;
+    }
+
+    .estructura-content h1{
+        padding: 0 1rem;
+        font-size: 40px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .estructura-content img{
+        width: 90vw;
+    }
+
+    .comoSeHace-content{
+        padding: 3rem 2rem;
+    }
+
+    .comoSeHace-content h1{
+        font-size: 40px;
+    }
+
+    .image-how {
+        width: 90vw;
+    }
+
+    .image-how img{
+        width: auto;
+    }
+
+    .how-to-do-it{
+        padding: 0 2rem;
+        text-align: justify;
+        width: auto;
+    }
+
+    .cuandoSeHace-content{
+        padding: 3rem 1rem;
+    }
+
+    .titulo-when{
+        width: 90vw;
+        height: 30vh;
+    }
+    .description-when{
+        height: 30vh;
+        width: 90vw;
+    }
+
+    .description-when p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .cuandoSeHace-content ul{
+        width: 90vw;
+        height: 130vh;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .queEs {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .content {
+        width: auto;
+        padding: 0 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .image{
+        width: auto;
+    }
+
+    .image img{
+        width: 95vw;
+    }
+
+    .line-cards {
+        justify-content: center;
+    }
+
+    .line-cards img {
+        margin: 1rem 2rem;
+        width: 31vw;
+    }
+
+    .clave{
+        margin: 1rem 1rem;
+        width: 30vw;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .info{
+        height: 415px;
+    }
+
+    .fondo-unDraw ul{
+        margin-bottom: 3rem;
+        width: auto;
+    }
+
+    .fondo-unDraw img{
+        width: 50vw;
+    }
+
+    .cuandoSeHace-content{
+        flex-direction: row;
+    }
+
+    .titulo-when{
+        width: 42vw;
+        height: 30vh;
+    }
+    .description-when{
+        height: 30vh;
+        width: 42vw;
+    }
+
+    .description-when p{
+        font-size: 20px;
+        text-align: justify;
+    }
+    .cuandoSeHace-content ul{
+        width: 90vw;
+        height: 100vh;
+        text-align: left;
+    }
+}

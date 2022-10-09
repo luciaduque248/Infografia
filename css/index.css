@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,9 +10,22 @@
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
-.queEs{
-    background-color: red;
+.frase {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #91e7be;
+}
+
+.subrayado {
+    background-color: #99e1e3;
+}
+
+.queEs {
+    height: 100vh;
     padding: 4rem 5rem;
     display: flex;
     justify-content: space-between;
@@ -20,19 +33,323 @@
     flex-wrap: wrap-reverse;
 }
 
-.content{
-    width: 30vw;
+.content {
+    width: 35vw;
+}
+
+.content h1 {
+    overflow: hidden;
+    font-size: 60px;
+    margin-bottom: 2rem;
+}
+
+.content p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 30px;
+}
+.image{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image img{
-    width: 40vw;
+    width: 45vw;
 }
 
-.ejemplos{
-    padding: 2rem 0;
+.ejemplos {
+    padding: 4rem 0;
 }
 
-.titulo h1{
+.titulo h1 {
+    font-size: 50px;
     text-align: center;
 }
 
+.line-cards {
+    padding: 0 5rem;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.line-cards img {
+    width: 25vw;
+}
+
+.uso-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 3rem;
+}
+
+.uso-content h1{
+    font-size: 50px;
+    margin-bottom: 2rem;
+}
+
+.uso-content p{
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.puntos-clave{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 45vh;
+}
+
+.clave{
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-radius: 10px;
+    background-color: #BFB8E6;
+    width: 25vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.clave h3{
+    padding: 0 1em;
+    text-align: center;
+}
+
+.clave p{
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+.numeral{
+    padding-top: 2rem;
+}
+
+.numeral h1{
+    font-size: 40px;
+    padding: 2rem 1rem;
+    overflow: hidden;
+    background-color: #9285e0;
+    border-radius: 100px;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caracteristicas-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.caracteristicas-content h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.caracteristicas-content p{
+    text-align: justify;
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.fondo-unDraw{
+    border-radius: 20px;
+    width: 82vw;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #7ab5a9;
+}
+
+.fondo-unDraw ul{
+    width: 30vw;
+}
+
+.fondo-unDraw li{
+    text-align: justify;
+    margin-top: 0.8em;
+}
+
+.fondo-unDraw img{
+    width: 40vw;
+}
+
+.estructura-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.estructura-content h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.comoSeHace-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.comoSeHace-content h1{
+    font-size: 60px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.image-how {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+    padding: 1rem;
+    margin: 1rem;
+}
+.image-how img{
+    width: 40vw;
+}
+
+.how{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.how-to-do-it{
+    width: 40vw;
+}
+
+.how-to-do-it ol li{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.cuandoSeHace-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+.titulo-when{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #8388AE;
+    margin: 0.5rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.description-when{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #6C9CA0;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.description-when p{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.cuandoSeHace-content ul{
+    width: 57vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #AFD7CE;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .queEs {
+        height: auto;
+        padding: 2rem 0rem;
+    }
+
+    .content {
+        width: auto;
+        padding: 0 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .content h1 {
+        overflow: hidden;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .image{
+        width: 100vw;
+    }
+
+    .image img{
+        width: 95vw;
+    }
+
+    .ejemplos {
+        padding: 4rem 1rem;
+    }
+
+    .line-cards {
+        padding: 0 2rem;
+    }
+
+    .line-cards img {
+        margin: 1rem 0;
+        width: 85vw;
+    }
+
+    .clave{
+        width: 70vw;
+        height: 105vh;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}

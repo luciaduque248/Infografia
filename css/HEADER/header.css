@@ -5,11 +5,11 @@
   --tipo-secundaria: Verdana;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --negro: #ececec;
   }
-}
+} PERMITE CAMBIAR COLOR OSCURO DE ACUERDO A PANTALLA*/
 @media (prefers-reduced-motion: reduce) {
   * {
     -webkit-animation: none !important;
@@ -95,11 +95,7 @@ table, tr, td {
   border-spacing: 0;
 }
 
-svg {
-  width: 100%;
-  display: block;
-  fill: currentColor;
-}
+
 body {
   min-height: 100vh;
   font-size: 100%;
@@ -123,24 +119,17 @@ body {
   
   color:white;
 }
-.header .h1{
-  /* background-color: aqua; */
-}
-.header .a{}
+
 
 .header .button{
   /* background-color: crimson; */
   display: none;
 }
-.header .svg{
-  width:2em;
-  height:2em;
-  fill:var(--negro);
+
+.button .fa-bars{
+  font-size: 30px;
 }
-.header .nav{
-  /* background-color: bisque; */
-  
-}
+
 .header .ul{
   display: flex;
   flex-flow: row nowrap;
